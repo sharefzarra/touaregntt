@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="420" height="140" viewBox="0 0 420 140">
+  <defs>
+    <linearGradient id="g2" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#B25C3B"/>
+      <stop offset="0.55" stop-color="#C2A67A"/>
+      <stop offset="1" stop-color="#1F8A8A"/>
+    </linearGradient>
+  </defs>
+
+  <rect x="12" y="18" width="104" height="104" rx="30" fill="url(#g2)"/>
+  <path d="M30 86c16-18 34-28 54-28 12 0 24 3 36 10-12 20-32 34-55 34-14 0-26-6-35-16z" fill="rgba(255,255,255,.55)"/>
+  <path d="M34 52c8-8 18-12 30-12 8 0 16 2 24 6" fill="none" stroke="rgba(255,255,255,.55)" stroke-width="6" stroke-linecap="round"/>
+
+  <g font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Arial, 'Noto Sans Arabic', sans-serif">
+    <text x="138" y="64" font-size="26" font-weight="800" fill="#102A2B">Touareg NTT</text>
+    <text x="138" y="92" font-size="16" font-weight="600" fill="#2F6B4E">Explore Libya</text>
+
+    <text x="138" y="124" font-size="18" font-weight="800" fill="#102A2B">الطوارق NTT</text>
+  </g>
+</svg>
