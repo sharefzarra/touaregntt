@@ -1,4 +1,22 @@
 /* Touareg NTT - Desert palette */
+/* Arabic Brush Font */
+@font-face {
+  font-family: "ArabicBrush";
+  src: url("../fonts/ArabicBrush.woff2") format("woff2"),
+       url("../fonts/ArabicBrush.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* Apply brush style to Arabic headings */
+html[lang="ar"] h1,
+html[lang="ar"] h2,
+html[lang="ar"] h3,
+html[lang="ar"] .brand-title strong {
+  font-family: "ArabicBrush", "Noto Sans Arabic", system-ui, sans-serif;
+  letter-spacing: 0.2px;
+}
 :root {
   --sand: #D8C3A0;
   --dune: #C2A67A;
