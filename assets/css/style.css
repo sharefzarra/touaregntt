@@ -171,19 +171,26 @@ img { max-width: 100%; display: block; }
   background: var(--surface);
   border: 1px solid rgba(16,42,43,.10);
 }
-.media-wrap {
+.media-wrap{
   position: relative;
   aspect-ratio: 16/11;
   background: linear-gradient(135deg, rgba(178,92,59,.25), rgba(31,138,138,.18));
+  border-radius: 18px;     /* اختياري */
+  overflow: hidden;        /* مهم جداً */
 }
-.media-wrap video, .media-wrap img {
-  width: 100%; height: 100%;
+
+.media-wrap video{
+  width: 100%;
+  height: 100%;
   object-fit: cover;
   display: block;
 }
-.media-overlay {
-  position: absolute; inset: 0;
+
+.media-overlay{
+  position: absolute;
+  inset: 0;
   background: linear-gradient(180deg, rgba(16,42,43,.08), rgba(16,42,43,.55));
+  pointer-events: none;
 }
 .hero-card-body {
   padding: 16px;
